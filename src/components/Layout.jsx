@@ -138,7 +138,8 @@ const globalStyle = css`
 const Layout = ({ children }) => (
   <div>
     <Global styles={globalStyle} />
-    <Helmet>
+    <Helmet defer={false}>
+      <title>Tomás</title>
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
       <link rel="canonical" href="https://tomff.com" />
     </Helmet>
