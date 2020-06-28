@@ -5,6 +5,7 @@
     "dev": "gatsby develop -o",
     "serve": "gatsby serve",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore"
   },
   "dependencies": {
