@@ -1,5 +1,5 @@
 ---
-name: "montecarlo-perc-viz"
+name: "Visualization for a Monte Carlo simulation of percolation"
 url: "https://github.com/tomasff/montecarlo-perc-viz"
 status: "In Progress"
 ---

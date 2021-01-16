@@ -1,3 +1,6 @@
 - Java
 - Python
 - Linux
+- Git
+- LaTeX
+- Flask
